@@ -47,7 +47,7 @@ while True:
     print("       Github: https://github.com/Red-company/RDDoS_Tool")
     print('                   For legal purposes only')
     print("\033[92;1m")
-    print("1. Website Domain\n2. IP Address\n3. About\n4. Exit")
+    print("1. Dominio del sitio web\n2. Dirección IP\n3. Acerca de\n4. Salir")
     print('\033[0m')
 
     # Input.
@@ -55,12 +55,12 @@ while True:
 
     # Selection.
     if opt == '1':
-        domain = str(input("Domain:"))
+        domain = str(input("Dominio:"))
         ip = socket.gethostbyname(domain)
         break
 
     elif opt == '2':
-        ip = str(input("IP Address: "))
+        ip = str(input("Dirección IP: "))
         break
 
     elif opt == '3':
@@ -79,14 +79,14 @@ while True:
         print("legit cases.")
         print("\nFor more information visit project's site.")
         
-        goon = input("\n\n\n\n\n\n\nPress Enter to continue.")
+        goon = input("\n\n\n\n\n\n\nPresione Enter para continuar.")
         os.system(cmd_clear)
 
     elif opt == '4':
         exit()
 
     else:
-        print('\033[91mInvaild Choice!\033[0m')
+        print('\033[91m¡Elección inválida!\033[0m')
         time.sleep(2)
         os.system(cmd_clear)
 
@@ -95,11 +95,11 @@ port_mode = False # If 'False' all ports will be use, if 'True' - certain.
 port = 2
 
 while 1:
-    port_bool = str(input("Certain port? [y/n]: "))
+    port_bool = str(input("¿Cierto puerto? [y/n]: "))
 
     if (port_bool == "y") or (port_bool == "Y"):
         port_mode = True
-        port = int(input("Port: "))
+        port = int(input("Puerto: "))
         break
 
     elif (port_bool == "n") or (port_bool == "N"):

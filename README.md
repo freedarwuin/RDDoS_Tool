@@ -1,16 +1,16 @@
-# 🔫 Red DDoS Tool (توزيع ريد لأداة رفض الخدمة) ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/stars/Red-company/RDDoS_Tool?style=social)
+# 🔫 Red DDoS Tool (Distribución de Reid de la herramienta de Denegación de Servicio) ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/stars/Red-company/RDDoS_Tool?style=social)
 
 <p align="left" display="inline-block">
 <img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg"> <img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red"></p>
 
 ![plot](./Screenshots/RDDoS_main.png)
 
-## What is RedDDoS Tool?
+## ¿Qué es la herramienta Red DDoS?
 ```diff
-! This is the best tool for DDoS attacks on github.
+! Esta es la mejor herramienta para ataques DDoS en Github.
 ```
 
- _RedDDoS Tool_ is a tool for DDoS attacks. You can test networks/servers/any other devices with it.
+ _RedDDoS Tool_ Es una herramienta para ataques DDoS. Puedes probar redes, servidores y cualquier otro dispositivo con ella..
 
 ## How it Works? 
  It sends continuous packets to the target. This attack is known as _DDoS attack_.
